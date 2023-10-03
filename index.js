@@ -2,14 +2,14 @@
 let daysNeededForProgress = Math.floor((100 - 50) / 20);
 let totalDays = daysNeededForProgress + 1; // +1 день для завершения восхождения
 
-console.log(`Черепашка заберётся на вершину на ${totalDays} день.`); // 4
+console.log(`Черепашка заберётся на вершину на ${totalDays} день.`); // Ответ: 4
 
 
 // #2
 let n = 10;
 let totalHandshakes = (n * (n - 1)) / 2;
 
-console.log(`Общее количество рукопожатий для ${n} человек: ${totalHandshakes}`); // 45
+console.log(`Общее количество рукопожатий для ${n} человек: ${totalHandshakes}`); // Ответ: 45
 
 // #3
 function removeDuplicates(inputStr) {
