@@ -1,8 +1,18 @@
 // #1
-let daysNeededForProgress = Math.floor((100 - 50) / 20);
-let totalDays = daysNeededForProgress + 1; // +1 день для завершения восхождения
+let distanceClimbed = 0;
+let days = 0;
 
-console.log(`Черепашка заберётся на вершину на ${totalDays} день.`); // Ответ: 4
+while (distanceClimbed < 100) {
+ days++;
+ distanceClimbed += 50;
+ if (distanceClimbed >= 100) {
+  break;
+ }
+ distanceClimbed -= 30;
+}
+
+console.log(`Черепашка заберётся на вершину на ${days} день.`); // Ответ: 4
+
 
 
 // #2
